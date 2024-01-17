@@ -2,6 +2,35 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-
   border: 1px solid;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  display: flex;
+  flex: 1;
+}
+aside {
+  display: flex;
+  flex: 2;
+}
+main {
+  display: flex;
+  flex: 15;
+}
+.second_product_name_line {
+  display: flex;
+  flex: 15;
+}
+.third_product_name_line {
+  display: flex;
+  flex: 8;
+}
+footer {
+  display: flex;
+  flex: 8;
 }
