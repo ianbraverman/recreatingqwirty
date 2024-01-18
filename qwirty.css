@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
+  background-color: rgb(216, 211, 211);
 }
 header {
   display: flex;
@@ -35,7 +36,47 @@ footer {
 .main_products {
   display: flex;
   flex: 10;
+  align-items: flex-start;
+  flex-direction: row;
 }
 img {
   max-width: 100%;
+}
+.individual_products {
+  display: flex;
+  flex-direction: column;
+  height: 2rem;
+  flex: 1;
+}
+.individual_product_header {
+  flex: 2;
+  background-color: rgb(77, 77, 241);
+  color: white;
+}
+.individual_product_image {
+  flex: 3;
+}
+.individual_product_content {
+  flex: 10;
+}
+.individual_product_price {
+  flex: 3;
+  background-color: rgb(77, 77, 241);
+  color: white;
+}
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(77, 77, 241);
+}
+.left_menu_header {
+  display: flex;
+  justify-content: space-between;
+}
+.right_menu_header {
+  display: flex;
+  justify-content: space-between;
+}
+.individual_menu_items_header a {
+  color: white;
 }
