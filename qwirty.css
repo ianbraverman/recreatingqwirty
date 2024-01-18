@@ -21,16 +21,18 @@ aside {
 main {
   display: flex;
   flex: 15;
-}
-.second_product_name_line {
-  display: flex;
-  flex: 15;
-}
-.third_product_name_line {
-  display: flex;
-  flex: 8;
+  flex-direction: row;
 }
 footer {
   display: flex;
   flex: 8;
+}
+.main_nav {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.main_products {
+  display: flex;
+  flex: 10;
 }
