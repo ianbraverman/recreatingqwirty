@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
-  border: 1px solid;
+  box-sizing: border-box;
 }
 body {
   display: flex;
@@ -38,6 +37,7 @@ footer {
   flex: 10;
   align-items: flex-start;
   flex-direction: row;
+  gap: 1rem;
 }
 img {
   max-width: 100%;
@@ -72,10 +72,12 @@ img {
 .left_menu_header {
   display: flex;
   justify-content: space-between;
+  gap: 1.3rem;
 }
 .right_menu_header {
   display: flex;
   justify-content: space-between;
+  gap: 1.3rem;
 }
 .individual_menu_items_header a {
   color: white;
@@ -95,7 +97,7 @@ input[type="text"] {
   width: 70rem;
 }
 button {
-  padding: 2rem;
+  padding: 0.5rem;
   background-color: rgb(77, 77, 241);
   color: white;
   border: none;
@@ -118,4 +120,33 @@ button {
   border: red;
   margin: 2rem;
   font-family: "IM Fell Great Primer SC", serif;
+  font-size: 1.1rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background-color: rgb(77, 77, 241);
+}
+.footer_header {
+  display: flex;
+  align-items: flex-start;
+  border: none;
+  border-bottom: solid;
+  color: white;
+}
+.footer_section {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-bottom: solid;
+  border-color: black;
+  gap: 0.5rem;
+}
+.individual_menu_items_footer a {
+  color: white;
+  border: none;
+}
+.individual_menu_items_footer {
+  border: none;
 }
