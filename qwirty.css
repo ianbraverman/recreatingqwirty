@@ -80,3 +80,42 @@ img {
 .individual_menu_items_header a {
   color: white;
 }
+.search-container {
+  display: flex;
+  margin: 0.5rem;
+  border: none;
+  flex: 20;
+}
+input[type="text"] {
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-bottom: solid;
+  border-color: rgb(77, 77, 241);
+  width: 70rem;
+}
+button {
+  padding: 2rem;
+  background-color: rgb(77, 77, 241);
+  color: white;
+  border: none;
+}
+.company_logo {
+  display: flex;
+  justify-content: center;
+  flex: 5;
+  font-size: 3rem;
+}
+.qwirty_search_financing {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.financing {
+  flex: 2.5;
+  color: white;
+  background-color: red;
+  border: red;
+  margin: 2rem;
+  font-family: "IM Fell Great Primer SC", serif;
+}
